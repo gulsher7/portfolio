@@ -7,18 +7,6 @@
   	}
 
 
-.header-buttons a{
-
-	border: 1px solid blue;
-	border-radius: 100px;
-	margin: 0 5px;
-	padding: 12px 35px;
-	color: red;
-	font-size: 1rem;
-
-}
-
-
 /***********************Extra header div css Start ************/
 
 
@@ -37,8 +25,16 @@ i {
 /************* all selected elements end ***********/
 
 
+button:hover{
+	background-color: #333!important;
+	color: white!important;
+	text-decoration: none!important;
+}
 
-
+button a:hover{
+	color:white;
+	text-decoration: none
+}
 .header-extradiv{
 	width: 100%;
 	height: auto;
