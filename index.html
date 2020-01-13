@@ -29,9 +29,11 @@
   	<!-------------------Boostrap 4 CDN LINKS Ends ------------------------------->
   	<style type="text/css">
   		#bgimage{ 
-  		border: 10px solid transparent;
-  		padding: 15px;
- 		border-image: url('./images/heart6.gif');
+  		 border: 10px solid transparent;
+	  padding: 15px;
+	  -webkit-border-image: url('./images/heart6.gif'); /* Safari 3.1-5 */
+	  -o-border-image: url('./images/heart6.gif'); /* Opera 11-12.1 */
+	   border-image: url('./images/heart6.gif');
 }
   	</style>
 </head>
@@ -66,7 +68,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-12 pt-3">
 	<div id="bgimage">
-		<img src="./images/wings2.png" class="img-fluid" style="margin-left: 50px;"></div>
+		<img src="./images/wings2.png" class="img-fluid"></div>
 </div>
 	</section>
 
