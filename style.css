@@ -3,6 +3,7 @@
   		margin: 0;
   		padding: 0;
   		box-sizing: border-box;
+  		scroll-behavior: smooth;
 
   	}
 
@@ -48,6 +49,7 @@ button a:hover{
 	padding: 50px!important;
 	border-radius: 30px;
 	transition: 0.3s;
+	margin-top: 20px;
 }
 
 .extra-div h2, .servicediv h2{
