@@ -355,4 +355,58 @@ footer {
 /*********************** Footer End ************/
 
 
+/*********************** Hover Effect ************/
+
+.hoverEffect a {
+  position: relative;
+  width: 150px;
+  height: 75px;
+  margin-right: 10px 0;
+  font-size: 15px;
+  display: inline-flex;
+  justify-content: center;
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.hoverEffect a:hover {
+  color: #fff;
+}
+
+.hoverEffect a:before{
+  content: '';
+  position: absolute;
+  top: 20;
+  left: 20;
+  width: 0%;
+  height: 50%;
+  background: url(btn-bg1.png);
+  background-size: cover;
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+.hoverEffect a:nth-child(2):before{
+  background: url(btn-bg2.png);
+  background-size: cover;
+
+}
+.hoverEffect a:hover:before{
+  width: 80%;
+}
+
+.hoverEffect a span{
+  position: relative;
+  z-index: 1;
+}
+
+
+h3 > span {
+  color: #0f0;
+  display: none;
+
+}
+
 
