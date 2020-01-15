@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet');
 *{
   margin: 0;
   padding: 0;
@@ -12,7 +13,6 @@ body{
   align-items: center;
   min-height: 100vh;
 }
-/***********************Extra header div css Start ************/
 
 
 /************* this css apply all selected elements ***********/
@@ -29,6 +29,7 @@ i {
 
 /************* all selected elements end ***********/
 
+/***********************Extra header div css Start ************/
 
 button:hover{
 	background-color: #333!important;
@@ -57,16 +58,17 @@ button a:hover{
 }
 
 .extra-div h2, .servicediv h2{
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 	margin: 20px 0px 15px 0px;
 	line-height: 1.6;
-	font-weight: 400;
-	color: #606060;
+  font-family: 'Ibarra Real Nova', serif;
+	font-weight: 900;
+	color: red;
 
 }
 
 .extra-div:hover{
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.8);
 	transform: translateY(-20px);
 }
 
@@ -115,7 +117,12 @@ button a:hover{
 
 
 /* *****************Project Section Start*********************** */
-
+#projectjumbobg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 
 
